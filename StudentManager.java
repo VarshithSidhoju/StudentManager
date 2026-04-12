@@ -38,6 +38,16 @@ public class StudentManager {
         }
     }
     System.out.println("Student not found.");
+}   
+    public static void deleteStudent(String name) {
+    for (Student s : students) {
+        if (s.name.equalsIgnoreCase(name)) {
+            students.remove(s);
+            System.out.println("Student deleted!");
+            return;
+        }
+    }
+    System.out.println("Student not found.");
 }
 
     public static void main(String[] args) {
