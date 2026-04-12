@@ -30,6 +30,16 @@ public class StudentManager {
         }
     }
 
+    public static void searchStudent(String name) {
+    for (Student s : students) {
+        if (s.name.equalsIgnoreCase(name)) {
+            System.out.println("Found: " + s.name + ", Age: " + s.age);
+            return;
+        }
+    }
+    System.out.println("Student not found.");
+}
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
