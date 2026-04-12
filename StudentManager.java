@@ -54,7 +54,7 @@ public class StudentManager {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n1. Add Student");
+            System.out.println("\n1. Add Student Record");
             System.out.println("2. View Students");
             System.out.println("3. Exit");
 
