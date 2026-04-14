@@ -26,7 +26,7 @@ public class StudentManager {
         }
 
         for (Student s : students) {
-            System.out.println("Name: " + s.name + ", Age: " + s.age);
+            System.out.println("Name: " + s.name + ", Age: " + s.age+"Ha Ha Ha");
         }
     }
 
@@ -37,7 +37,7 @@ public class StudentManager {
             return;
         }
     }
-    System.out.println("Student not found.");
+    System.out.println("Student is not found.");
 }   
     public static void deleteStudent(String name) {
     for (Student s : students) {
@@ -47,7 +47,7 @@ public class StudentManager {
             return;
         }
     }
-    System.out.println("Student not found.");
+    System.out.println("Student is not found.");
 }
 
     public static void main(String[] args) {
