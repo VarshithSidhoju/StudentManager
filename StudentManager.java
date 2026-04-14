@@ -43,7 +43,7 @@ public class StudentManager {
     for (Student s : students) {
         if (s.name.equalsIgnoreCase(name)) {
             students.remove(s);
-            System.out.println("Student deleted!");
+            System.out.println("Student will be deleted!");
             return;
         }
     }
@@ -54,7 +54,7 @@ public class StudentManager {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n1. Add new Student Record");
+            System.out.println("\n1. wanna Add new Student Record");
             System.out.println("2. View Students");
             System.out.println("3. Exit");
 
